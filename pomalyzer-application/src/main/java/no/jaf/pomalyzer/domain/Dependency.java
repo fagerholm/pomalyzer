@@ -46,6 +46,11 @@ public class Dependency {
     public void setScope(String scope) {
         this.scope = scope;
     }
+
+    @Override
+    public String toString() {
+        return "Dependency{" + "artifactId=" + artifactId + ", groupId=" + groupId + ", version=" + version + ", scope=" + scope + '}';
+    }
     
     
     
